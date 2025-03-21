@@ -13,7 +13,7 @@ const Modal = ({ isOpen, closeModal }) => {
   return (
     <>
         <div className="modal-overlay">
-            <div className="modal-container">
+            <div className="modal-container" ref={modalRef} >
                 <h1>MODAL</h1>
                 <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
