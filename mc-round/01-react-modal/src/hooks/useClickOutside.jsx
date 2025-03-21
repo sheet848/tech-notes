@@ -23,7 +23,7 @@ const useClickOutside = (elementRef, handler) => {
     { /*
         1. check what is being passed down as elementRef, handler using console.log
         2. call useEffect ->
-            create event cb which will call handler function when mousedown event happens( clicked anywhere in the doc)
+            create event cb which will call handler function when mousedown event happens ( clicked outside the modal ) 
         3. return function is created the remove the mousedown event
     */}
 
