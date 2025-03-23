@@ -4,7 +4,7 @@ import WorkTile from './components/WorkTile'
 
 function App() {
 
-  const [title, setTitle] = useState(null)
+  const [title, setTitle] = useState("")
   const [workList, setWorkList] = useState([])
 
   const handleSave = () => {
